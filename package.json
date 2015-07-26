@@ -1,0 +1,15 @@
+{
+  "name": "adsoft-gherkin",
+  "version": "1.0.0",
+  "scripts": {
+    "prepublish": "babel -d dist lib"
+  },
+  "main": "dist",
+  "dependencies": {
+    "gherkin": "3.0.0",
+    "ramda": "0.17.1"
+  },
+  "devDependencies": {
+    "babel": "5.8.5"
+  }
+}
